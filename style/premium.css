@@ -1,0 +1,198 @@
+ html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'TW Cen MT Condensed', sans-serif;
+    height: auto;
+    width: 100%;
+}
+
+/* Header */
+.header{
+    background-color: rgb(255, 218, 185, 0.7);
+}
+.header:hover{
+    background-color: rgb(255, 218, 185, 1);
+    position: sticky;
+}
+
+.premium{
+    padding: 1% 0 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: linear-gradient(#E6E6FA, #7B68EE);
+    height: auto;
+    width: 100%;
+}
+.premium h1{
+    text-align: center;
+    font-size: 48px;
+}
+.advantages{
+    text-align: center;
+}
+.download{
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    /* margin: 5px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.download img{
+    width: 50%;
+}
+.download p{
+    font-size: 24px;
+}
+.no-ads{
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.no-ads img{
+    width: 20%;
+    margin-bottom: 2%;
+}
+.no-ads p{
+    font-size: 24px;
+}
+.cloud{
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cloud img{
+    margin-top: 2%;
+    width: 45%;
+}
+.cloud p{
+    font-size: 24px;
+}
+
+.form-column {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-column h1{
+    font-size: 48px;
+}
+
+.subscribtion{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    width: 18%;
+    border: 2px solid #cccccc;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px 0px #7B68EE;
+    /* text-align: center; */
+}
+.subscribtion h2 {
+    width: 60%;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 3px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    border-bottom: 2px solid #7B68EE;
+    margin-bottom: 1px;
+    text-align: left;
+}
+.subscribtion h6{
+    /* color: #ffffff; */
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+}
+.subscribtion p {
+    width: 100%;
+    font-size: 24px;
+    line-height: 23px;
+}
+.subscribtion button{
+    font-family: 'TW Cen MT Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #E6E6FA;
+    background-color: #7B68EE;
+    border-radius: 20px;
+    padding: 10px 20px;
+	margin: 10px;
+}
+.subscribtion yearly{
+    width:20%;
+}
+button:hover {
+	color: white;
+	border: 1px solid #E6E6FA;
+	background-color: #c8a2c8;
+	cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:800px){
+    .premium{
+        text-align: center;
+    }
+    .premium h1{
+        font-size: 32px;
+    }
+    .advantages{
+        text-align: center;
+        display: inline-flex;
+    }
+    .download{
+        padding: 8px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .download p{
+        font-size: 20px;
+    }
+    .no-ads{
+        padding: 8px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .no-ads img{
+        margin-left: 5%;
+    }
+    .no-ads p{
+        font-size: 20px;
+    }
+    .cloud{
+        padding: 8px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cloud img{
+        margin-top: -7%;
+    }
+    .cloud p{
+        font-size: 20px;
+    }
+    .form-column{
+        text-align: center;
+    }
+    .form-column h1{
+        font-size: 32px;
+    }
+    .subscribtion{
+      display: grid;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .buy-btn{
+        text-align: center;
+    }
+    .subscribtion button{
+        width: 40%;
+    }
+}

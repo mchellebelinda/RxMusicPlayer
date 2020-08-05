@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="../style/genre.css">
+    <link type="text/css" rel="stylesheet" href="../style/footer.css">
+    <link rel="icon" href="../assets/logo2.png">
+    <script type="text/javascript" src="../script/genre.js"></script>
+
+    <title>RXplayer | Music by Genre</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-menu">
+            <a href="home.html"><img src="../assets/logo.png" class="logo"></a>
+        
+            <div class="menu-bar">
+                <ul class="menuu-800">
+                    <li class="dropdown-800">
+                        <p>Menu  <img class="arrow-down-800" src="../assets/dropdown-arrow.png"></p>
+                        <ul class="dropdown-content-800">
+                            <li><a href="premium.html">Premium</a></li>
+                            <li><a href="top10.html">Top 10 Asian Music</a></li>
+                            <li><a href="genre.html">Music by Genre</a></li>
+                            <li class="register"><a href="register.html">Register</a></li>
+                            <li id="login">Login</li>
+                        </ul>
+                    </li> 
+                    <li class="register2"><a href="register.html">Register</a></li>
+                    <li id="login2">Login</li>
+                    <!-- Login Popup -->
+                    <div id="login-popup">
+                        <div class="login-content">
+                            <span class="close-login">&times;</span>
+                            <img src="../assets/logo.png" class="login-logo">
+                            <form action="#">
+                                <div class="e-mail">
+                                    <input type="email" id="email" placeholder="Email">
+                                </div>
+                                <div class="pass">
+                                    <input type="password" id="pw" placeholder="Password">
+                                </div>
+                                <button class="login-btn">Log In</button>
+                                <p class="forgot">Forgot password?</p>
+                                <p class="hv-acc">Don't have an account? <span class="p1"><a href="register.html">Register here</a></span></p>
+                            </form>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="header-2">
+        <p class="p-1">See a little sneak peek of our music genres!</p>
+        <p class="p-2">Want to hear more? Go register now!</p>
+        <img src="../assets/music-genre.png">
+    </div>
+
+    <!-- Content -->
+    <div class="genre">
+        <p>Click to see the songs!</p>
+        <div class="row1">
+            <div class="kpop">
+                <button id="kpop-btn">KPOP</button>
+            </div>
+            <div class="pop">
+                <button id="pop-btn">POP</button>
+            </div>
+            <div class="r-b">
+                <button id="rb-btn">R & B</button>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="cpop">
+                <button id="cpop-btn">CPOP</button>
+            </div>
+            <div class="indo">
+                <button id="indopop-btn">INDOPOP</button>
+            </div>
+            <div class="chill">
+                <button id="chill-btn">CHILL</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popups -->
+    <!-- Kpop -->
+    <div id="kpop-popup">
+        <div class="popup-content">
+            <span class="kpop-close">&times;</span>
+                <div class="kpop-header">
+                    <h1>KPOP</h1>
+                </div>
+                <p>KPOP GENRE</p>
+                <p1>Register to see and listen to more songs!</p1>
+                <br><a href="register.html"><button class="regis-btn">Register</button></a>
+                <div class="songs">
+                    <div class="songs-content">
+                        <div class="no">1. </div>
+                        <div class="poster"><img src="../assets/song posters/On.jpg"></div>
+                        <div class="desc">
+                            <div class="name">On</div>
+                            <div class="artist">BTS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="songs-content">
+                        <div class="no">2. </div>
+                        <div class="poster"><img src="../assets/song posters/Boy With Luv.jpg"></div>
+                        <div class="desc">
+                            <div class="name">Boy With Luv</div>
+                            <div class="artist">BTS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="songs-content">
+                        <div class="no">3. </div>
+                        <div class="poster"><img src="../assets/song posters/Eight.jpg"></div>
+                        <div class="desc">
+                            <div class="name">Eight</div>
+                            <div class="artist">IU & Suga</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="songs-content">
+                        <div class="no">4. </div>
+                        <div class="poster"><img src="../assets/song posters/My Time.jpg"></div>
+                        <div class="desc">
+                            <div class="name">My Time</div>
+                            <div class="artist">BTS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="songs-content">
+                        <div class="no">5. </div>
+                        <div class="poster"><img src="../assets/song posters/Black Swan.jpg"></div>
+                        <div class="desc">
+                            <div class="name">Black Swan</div>
+                            <div class="artist">BTS</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Pop -->
+    <div id="pop-popup">
+        <div class="popup-content">
+            <span class="pop-close">&times;</span>
+            <div class="pop-header">
+                <h1>POP</h1>
+            </div>
+            <p>POP GENRE</p>
+            <p1>Register to see and listen to more songs!</p1>
+            <a href="register.html"><button class="regis-btn">Register</button></a>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">1. </div>
+                    <div class="poster"><img src="../assets/song posters/Intentions.png"></div>
+                    <div class="desc">
+                        <div class="name">Intentions</div>
+                        <div class="artist">Justin Bieber</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">2. </div>
+                    <div class="poster"><img src="../assets/song posters/Who.png"></div>
+                    <div class="desc">
+                        <div class="name">Who</div>
+                        <div class="artist">Lauv ft. BTS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">3. </div>
+                    <div class="poster"><img src="../assets/song posters/Break My Heart.png"></div>
+                    <div class="desc">
+                        <div class="name">Break My Heart</div>
+                        <div class="artist">Dua Lipa</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">4. </div>
+                    <div class="poster"><img src="../assets/song posters/To Die For.png"></div>
+                    <div class="desc">
+                        <div class="name">To Die For</div>
+                        <div class="artist">Sam Smith</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">5. </div>
+                    <div class="poster"><img src="../assets/song posters/Yummy.png"></div>
+                    <div class="desc">
+                        <div class="name">Yummy</div>
+                        <div class="artist">Justin Bieber</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- R & B -->
+    <div id="rb-popup">
+        <div class="popup-content">
+            <span class="rb-close">&times;</span>
+            <div class="rb-header">
+                <h1>R & B</h1>
+            </div>
+            <p>R & B GENRE</p>
+            <p1>Register to see and listen to more songs!</p1>
+            <a href="register.html"><button class="regis-btn">Register</button></a>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">1. </div>
+                    <div class="poster"><img src="../assets/song posters/Good Job.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Good Job</div>
+                        <div class="artist">Alicia Keys</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">2. </div>
+                    <div class="poster"><img src="../assets/song posters/Actions.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Actions</div>
+                        <div class="artist">John Legend</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">3. </div>
+                    <div class="poster"><img src="../assets/song posters/Eleven.png"></div>
+                    <div class="desc">
+                        <div class="name">Eleven</div>
+                        <div class="artist">Khalid</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">4. </div>
+                    <div class="poster"><img src="../assets/song posters/Comfortable.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Comfortable</div>
+                        <div class="artist">H.E.R.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">5. </div>
+                    <div class="poster"><img src="../assets/song posters/Get Me.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Get Me</div>
+                        <div class="artist">Justin Bieber</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cpop -->
+    <div id="cpop-popup">
+        <div class="popup-content">
+            <span class="cpop-close">&times;</span>
+            <div class="cpop-header">
+                <h1>CPOP</h1>
+            </div>
+            <p>CPOP GENRE</p>
+            <p1>Register to see and listen to more songs!</p1>
+            <a href="register.html"><button class="regis-btn">Register</button></a>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">1. </div>
+                    <div class="poster"><img src="../assets/song posters/Won't Cry.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Won't Cry</div>
+                        <div class="artist">Jay Chou</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">2. </div>
+                    <div class="poster"><img src="../assets/song posters/When We Were Young.jpg"></div>
+                    <div class="desc">
+                        <div class="name">When We Were Young</div>
+                        <div class="artist">Eric Chou</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">3. </div>
+                    <div class="poster"><img src="../assets/song posters/Full Stop.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Full Stop</div>
+                        <div class="artist">G.E.M</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">4. </div>
+                    <div class="poster"><img src="../assets/song posters/If I Were Young.jpg"></div>
+                    <div class="desc">
+                        <div class="name">If I Were Young</div>
+                        <div class="artist">Ronghao Li</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">5. </div>
+                    <div class="poster"><img src="../assets/song posters/What's Wrong.jpg"></div>
+                    <div class="desc">
+                        <div class="name">What's Wrong</div>
+                        <div class="artist">Eric Chou</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Indopop -->
+    <div id="indopop-popup">
+        <div class="popup-content">
+            <span class="indopop-close">&times;</span>
+            <div class="indopop-header">
+                <h1>INDOPOP</h1>
+            </div>
+            <p>INDOPOP GENRE</p>
+            <p1>Register to see and listen to more songs!</p1>
+            <a href="register.html"><button class="regis-btn">Register</button></a>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">1. </div>
+                    <div class="poster"><img src="../assets/song posters/Tak Ingin Pisah Lagi.png"></div>
+                    <div class="desc">
+                        <div class="name">Tak Ingin Pisah Lagi</div>
+                        <div class="artist">Marion Jola</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">2. </div>
+                    <div class="poster"><img src="../assets/song posters/Ragu Semesta.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Ragu Semesta</div>
+                        <div class="artist">Isyana Sarasvati</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">3. </div>
+                    <div class="poster"><img src="../assets/song posters/Secukupnya.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Secukupnya</div>
+                        <div class="artist">Hindia</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">4. </div>
+                    <div class="poster"><img src="../assets/song posters/Nyaman.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Nyaman</div>
+                        <div class="artist">Andmesh</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">5. </div>
+                    <div class="poster"><img src="../assets/song posters/Fine Today.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Fine Today</div>
+                        <div class="artist">Ardhito Pramono</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chill -->
+    <div id="chill-popup">
+        <div class="popup-content">
+            <span class="chill-close">&times;</span>
+            <div class="chill-header">
+                <h1>CHILL</h1>
+            </div>
+            <p>CHILL GENRE</p>
+            <p1>Register to see and listen to more songs!</p1>
+            <a href="register.html"><button class="regis-btn">Register</button></a>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">1. </div>
+                    <div class="poster"><img src="../assets/song posters/Conversations in the Dark.jpg"></div>
+                    <div class="desc">
+                        <div class="name">Conversations In The Dark</div>
+                        <div class="artist">John Legend</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">2. </div>
+                    <div class="poster"><img src="../assets/song posters/Changes.png"></div>
+                    <div class="desc">
+                        <div class="name">Changes</div>
+                        <div class="artist">Lauv</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">3. </div>
+                    <div class="poster"><img src="../assets/song posters/On My Mind.jpg"></div>
+                    <div class="desc">
+                        <div class="name">On My Mind</div>
+                        <div class="artist">Madeline Rose</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">4. </div>
+                    <div class="poster"><img src="../assets/song posters/If the World Was Ending.png"></div>
+                    <div class="desc">
+                        <div class="name">If the World Was Ending</div>
+                        <div class="artist">JP Saxe</div>
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                <div class="songs-content">
+                    <div class="no">5. </div>
+                    <div class="poster"><img src="../assets/song posters/The Story.jpg"></div>
+                    <div class="desc">
+                        <div class="name">The Story</div>
+                        <div class="artist">Conan Gray</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+        <div class="footer-1">
+            <img src="../assets/logo.png" class="logo-footer">
+            <ul class="help">
+                <li class="hdr">HELP</li>
+                <li>Guide</li>
+                <li>Privacy Policy</li>
+                <li>Terms and Conditions</li>
+            </ul>
+        </div>
+
+        <div class="footer-2">
+            <h2>WRITE YOUR EMAIL ADDRESS BELOW TO GET OUR NEWEST UPDATES</h2>
+            <h3>Stay up-to-date with our latest news, events, and promotions!</h3>
+            <input type="email" name="email" id="e-mail" placeholder="Email Address"><br>
+            <button class="subs-btn">SUBSCRIBE</button>
+        </div>
+
+        <div class="footer-3">
+            <ul class="socmed">
+                <li><a href="https://www.instagram.com"><img src="../assets/instagram.png"></a></li>
+                <li><a href="https://www.twitter.com"><img src="../assets/twitter.png"></a></li>
+                <li><a href="https://www.facebook.com"><img src="../assets/facebook.png"></a></li>
+            </ul>
+            <h4>©2020 RXplayer</h4>
+        </div>
+    </footer>
+    
+</body>
+</html>
